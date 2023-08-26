@@ -1,16 +1,18 @@
 # Calculate_and_Draw_Mandelbrot
 This Python program generates the Mandelbrot set using three different approaches:
 
-Pure Python Implementation
-Numba JIT-compiled Implementation
-GPU-accelerated Implementation
+-Pure Python Implementation
+-Numba JIT-compiled Implementation
+-GPU-accelerated Implementation
+
 Here's a breakdown of what each part does:
 
-Importing Libraries
+*Importing Libraries*
 numpy for numerical operations
 matplotlib.pyplot for plotting
 time for measuring execution time
 numba for Just-In-Time (JIT) compilation and CUDA support
+
 Pure Python Implementation (mandelbrot_python)
 Takes parameters defining the region of the complex plane to visualize, the dimensions of the image, and the maximum number of iterations.
 Uses nested loops to iterate over each pixel in the image.
